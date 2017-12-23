@@ -6,7 +6,7 @@
     
     elle va retourner 1 si l'authentification est bien passé 
                       0 si le login_name est introuvalbe
-                     -1 si le password et incompatible
+                     -1 si le password est incompatible
                      
 # 3 le fichier class-phppass.php ou il'y les fonctions d'hachage de wordpress pour le cryptage de des passwords 
 
