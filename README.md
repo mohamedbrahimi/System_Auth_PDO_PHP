@@ -1,6 +1,6 @@
 # System_Auth_PDO_PHP
-# 1 le fichier config.php < host name, database , password, user name>
-# 2 le fichier conne.php ou il'y a  l'instruction 
+# 1 le fichier config.php : pour la configurtaion de la bdd : < host name, database , password, user name>
+# 2 le fichier conne.php pour montrer un simple exemple de connexion :  
    $inst  = new connectionClass();
     var_dump($inst->exsistUser('login_name', 'login_password'));
     
@@ -8,7 +8,7 @@
                       0 si le login_name est introuvalbe
                      -1 si le password est incompatible
                      
-# 3 le fichier class-phppass.php ou il'y les fonctions d'hachage de wordpress pour le cryptage de des passwords 
+# 3 le fichier class-phppass.php : regroupe les fonctions d'hachage de wordpress pour le cryptage des mots de passe
 
 
     
